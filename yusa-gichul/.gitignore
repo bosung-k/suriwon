@@ -1,0 +1,6 @@
+work/
+__pycache__/
+*.pyc
+kc_spec_t.py
+kc_spec_c.py
+kc_ans.py
