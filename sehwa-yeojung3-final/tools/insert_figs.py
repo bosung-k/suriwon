@@ -51,8 +51,9 @@ def load_png(path, width_mm):
     im = tight(im)
     if width_mm is None:
         width_mm = im.width * PHOTO_MM
-    px = int(round(width_mm / 25.4 * 360))          # 360dpi
+    px = int(round(width_mm / 25.4 * 300))          # 300dpi
     im = im.resize((px, int(round(im.height * px / im.width))), Image.LANCZOS)
+    im = im.quantize(6, dither=Image.Dither.NONE)
     bio = io.BytesIO(); im.save(bio, 'PNG', optimize=True)
     return bio.getvalue(), width_mm, width_mm * im.height / im.width
 
