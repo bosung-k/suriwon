@@ -8,3 +8,4 @@
 | [`hwp-book-generator/`](hwp-book-generator/) | 수리원 HWPX 양식에 문항 원고를 채워 교재(HWPX → HWP/PDF)를 만드는 스크립트 |
 | [`textbook/`](textbook/) | 서문여고 공통수학2 기말 고난도 교재(48제) 생성 도구 |
 | [`seha-final-2026/`](seha-final-2026/) | 세화고 1학년 공통수학2 2학기 기말고사 대비 (141제 v2): 생성도구·원고·분석 |
+| [`lesson-2027-pre1/`](lesson-2027-pre1/) | 2027 예비고1 공통수학1 11·12월 수업자료: 2~6회차 설계안, 2회차 원고(`content_02.py`), 기출 분석 도구 |
